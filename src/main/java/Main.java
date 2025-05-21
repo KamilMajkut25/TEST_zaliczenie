@@ -1,12 +1,3 @@
-//Zadanie 29. Odwracanie tablicy liczb całkowitych
-//Opis zadania:
-//Napisz program w języku Java, który:
-//1. Wczyta od użytkownika tablicę liczb całkowitych.
-//2. Odwróci kolejność wszystkich elementów w tej tablicy.
-//   Przykład: `[3, 7, 1]` → `[1, 7, 3]`
-//3. Wyświetli odwróconą tablicę na ekranie.
-
-
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -17,7 +8,7 @@ public class Main {
         
         int n = scanner.nextInt();
       int[] tablica = new int[n];
-      System.out.println("Wprowadź cyfry do tablicy");
+      System.out.println("Wprowadź liczby cakowite do tablicy");
         
       for (int i = 0; i < n; i++) {
           tablica[i] = scanner.nextInt();
